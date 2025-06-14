@@ -33,7 +33,7 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-xl sm:text-2xl text-gray-300 mb-8 max-w-2xl mx-auto"
           >
-            React/Java Developer
+            Full Stack Developer
           </motion.p>
           
           <motion.p
