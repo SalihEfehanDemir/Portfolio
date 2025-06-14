@@ -39,7 +39,7 @@ const About = () => {
             {/* Social Links */}
             <div className="flex space-x-6">
               <a
-                href="https://github.com"
+                href="https://github.com/SalihEfehanDemir"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group"
@@ -53,7 +53,7 @@ const About = () => {
               </a>
               
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/salih-efehan-demir/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group"

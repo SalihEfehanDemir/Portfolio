@@ -5,29 +5,29 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: 'E-Commerce Platform',
-      description: 'A full-stack e-commerce solution with React frontend and Java Spring Boot backend. Features include user authentication, product catalog, shopping cart, and payment integration.',
-      tags: ['React', 'Java', 'Spring Boot', 'PostgreSQL', 'Tailwind CSS'],
-      github: 'https://github.com',
-      demo: 'https://demo.com',
+      title: 'EsnafShopping E-Commerce',
+      description: 'An E-Commerce website developed with PHP for local businesses. It features product management, a shopping cart, and a user system.',
+      tags: ['PHP', 'HTML', 'CSS', 'JavaScript', 'MySQL'],
+      github: 'https://github.com/SalihEfehanDemir/EsnafShopping-E-Commerce-Website',
+      demo: '#',
       image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&h=300&fit=crop&q=80'
     },
     {
       id: 2,
-      title: 'Task Management App',
-      description: 'A collaborative task management application built with React and Supabase. Real-time updates, team collaboration, and advanced filtering capabilities.',
-      tags: ['React', 'Supabase', 'Tailwind CSS', 'Framer Motion'],
-      github: 'https://github.com',
-      demo: 'https://demo.com',
+      title: 'Lyra Web',
+      description: 'A modern E-Commerce website built with a React frontend and a Go backend, demonstrating a full-stack implementation with a focus on performance.',
+      tags: ['React', 'Go', 'JavaScript', 'REST API'],
+      github: 'https://github.com/SalihEfehanDemir/lyra-web',
+      demo: '#',
       image: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500&h=300&fit=crop&q=80'
     },
     {
       id: 3,
-      title: 'Weather Dashboard',
-      description: 'A modern weather dashboard with location-based forecasts, interactive charts, and responsive design. Built with React and integrated with weather APIs.',
-      tags: ['React', 'Go', 'MongoDB', 'Chart.js', 'REST API'],
-      github: 'https://github.com',
-      demo: 'https://demo.com',
+      title: 'Library Management System',
+      description: 'A library management system written in Go. It handles book records, member information, and borrowing/returning processes.',
+      tags: ['Go', 'Backend', 'CLI'],
+      github: 'https://github.com/SalihEfehanDemir/Library-Management',
+      demo: '#',
       image: 'https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=500&h=300&fit=crop&q=80'
     }
   ]
@@ -156,7 +156,7 @@ const Projects = () => {
           className="text-center mt-12"
         >
           <a
-            href="https://github.com"
+            href="https://github.com/SalihEfehanDemir"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center px-6 py-3 bg-transparent border-2 border-blue-600 text-blue-400 hover:bg-blue-600 hover:text-white rounded-lg transition-colors font-medium"
