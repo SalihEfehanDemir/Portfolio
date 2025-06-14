@@ -7,6 +7,7 @@ const Skills = () => {
     { name: 'Python', icon: '🐍' },
     { name: 'C', icon: '🇨' },
     { name: 'JavaScript', icon: '📜' },
+    { name: 'Java', icon: '🐱' },
     { name: 'PHP', icon: '🐘' },
     { name: 'HTML/CSS', icon: '🌐' },
     { name: 'React', icon: '⚛️' },
