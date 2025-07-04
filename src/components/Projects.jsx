@@ -20,6 +20,7 @@ const Projects = () => {
       description: 'A modern React application featuring multiple productivity tools including password generation, time tracking, and budget management, built with Vite, Supabase, and Tailwind CSS.',
       tags: ['React', 'Supabase', 'Tailwind CSS', 'Framer Motion', 'Vite'],
       github: 'https://github.com/SalihEfehanDemir/StarGrad',
+      liveLink: 'https://stargrad.vercel.app',
       image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop&q=80',
       category: 'Full Stack',
       featured: true,
@@ -197,19 +198,24 @@ const Projects = () => {
                     </span>
                   </motion.a>
                   
-                  <motion.button
-                    className="btn-secondary group"
-                    whileHover={{ scale: 1.05 }}
-                    whileTap={{ scale: 0.95 }}
-                  >
-                    <span className="flex items-center">
-                      Live Demo
-                      <svg className="w-4 h-4 ml-2 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
-                      </svg>
-                    </span>
-                  </motion.button>
+                  {project.status === 'Live' && project.liveLink && (
+                    <motion.a
+                      href={project.liveLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="btn-secondary group"
+                      whileHover={{ scale: 1.05 }}
+                      whileTap={{ scale: 0.95 }}
+                    >
+                      <span className="flex items-center">
+                        Live Demo
+                        <svg className="w-4 h-4 ml-2 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                        </svg>
+                      </span>
+                    </motion.a>
+                  )}
                 </div>
               </div>
             </motion.div>
