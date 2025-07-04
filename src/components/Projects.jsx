@@ -16,14 +16,14 @@ const Projects = () => {
     },
     {
       id: 2,
-      title: 'Task Management App',
-      description: 'A collaborative productivity platform with real-time synchronization, team management, advanced filtering, drag-and-drop interface, and comprehensive analytics dashboard.',
-      tags: ['React', 'Supabase', 'Tailwind CSS', 'Framer Motion', 'Real-time'],
-      github: 'https://github.com',
-      image: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop&q=80',
-      category: 'Frontend',
-      featured: false,
-      status: 'Development'
+      title: 'StarGrad - All-in-One Utility App',
+      description: 'A modern React application featuring multiple productivity tools including password generation, time tracking, and budget management, built with Vite, Supabase, and Tailwind CSS.',
+      tags: ['React', 'Supabase', 'Tailwind CSS', 'Framer Motion', 'Vite'],
+      github: 'https://github.com/SalihEfehanDemir/StarGrad',
+      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop&q=80',
+      category: 'Full Stack',
+      featured: true,
+      status: 'Live'
     },
     {
       id: 3,
