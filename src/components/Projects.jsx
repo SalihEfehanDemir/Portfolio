@@ -32,7 +32,7 @@ const Projects = () => {
       description: 'Modern, responsive weather dashboard built with Next.js 14, featuring glass-morphism UI, real-time forecasts, interactive charts, and personalized settings with dark theme support.',
       tags: ['Next.js 14', 'TypeScript', 'Tailwind CSS', 'Radix UI', 'Recharts'],
       github: 'https://github.com/SalihEfehanDemir/Weather-app',
-      liveLink: 'https://weather-app-tau-beryl.vercel.app',
+      liveLink: 'https://havapro.vercel.app',
       image: 'https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=600&h=400&fit=crop&q=80',
       category: 'Full Stack',
       featured: true,
